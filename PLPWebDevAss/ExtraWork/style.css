@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    margin: 0; /* Remove default margin from the body*/
+    padding: 0;
+
+}
+
+
+header{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+section{
+    margin: 20px 0; /* Margin top and bottom for section*/
+    padding: 20px;
+    
+}
+
+
+
+
+#introduction{
+    background-color: #e0e0e0;
+}
+
+#skills ul{
+    list-style: none;  /* Remove default bullet point*/
+    padding: 0;
+
+}
+
+#skills li{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+#contact {
+    text-decoration: navy;
+    color: aqua;
+    padding: 20px;
+
+}
+
+@media only screen and (max-width:600px) {
+    section{
+        padding: 5px;
+        margin: 5px;
+    }
+}

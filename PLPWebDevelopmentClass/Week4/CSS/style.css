@@ -1,0 +1,27 @@
+.red_paragraph{
+    color: red;
+}
+
+.image{
+    display: block;
+}
+
+
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+
+.item{
+    display: flex;
+    padding: 50px;
+}
+
+
+img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}

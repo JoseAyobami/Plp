@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <title> HTML FORMS </title>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="num" max="1000" id="name" name="name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="ayenijoseph45@gmail.com">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <br>
+        <label for="file"> Upload file</label>
+        <input type="file" id="file" name="file" accept=".pdf" accept="video/* & image/*">
+        <br>
+
+        <input type="checkbox" id="" value="I am a student">
+        <label for="student">I am a student</label>
+        <br>
+
+
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="Female">Female</label>
+
+        <br>
+
+
+        <label for="car"> Select a car model</label>
+        <select id="car" name="Car">
+            <option value=""></option>
+            <option value="Toyota"> Toyota</option>
+            <option value="Benz">Benz</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Chevrolet"> Chevrolet</option>
+
+
+        </select>
+        <br>
+        <textarea id="bio" name="bio" rows="10" cols="40" maxlength="5">
+            Type in your bio.
+        </textarea>
+        <br>
+        <input type="submit" value="Save details">
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+* {
+    background-color: chartreuse;
+    margin: 0.5cm;
+    padding-left: 0cap;
+}
+
+ul {
+    display: flex;
+    list-style-type: 0;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: chocolate;
+    display: flexbox
+}
