@@ -7,7 +7,7 @@
 //   var smallNumber = a < b ? a : b;
 // print(smallNumber);
 
-var name = 'a';
-var v1 = name ?? 'Gerald';
+//var name = 'a';
+//var v1 = name ?? 'Gerald';
   //print(v1);
 //}
