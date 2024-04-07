@@ -11,7 +11,7 @@ class Teacher{
 
   // Method that print out Teacher's Information
   void displayTeacherInfo(){
-    print('Nmae of Teacher: $name');
+    print('Name of Teacher: $name');
     print('Age: $age');
     print('Subject teach by the Teacher: $subjectTeach \n');
   }
@@ -31,7 +31,7 @@ class Student{
 
   // Method that print out Student' Information
   void displayStudentInfo(){
-    print('Name of Student: $name ');
+    print('Name of Student: $name');
     print('Student Age: $age');
     print('Student Grade: $gradeLevel');
 
