@@ -1,3 +1,5 @@
+// Define an interface
+
 abstract class MakeSound {
   void makeSound();
 }
